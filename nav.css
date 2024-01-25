@@ -1,0 +1,151 @@
+*{
+   margin: 0;
+    padding: 0;
+    font-family: "Chilanka";
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    /*background-image: linear-gradient(rgba(0,0,0,0.25)) url("resources/Screenshot from 2024-01-23 10-33-14.png"););*/
+    background-color: darkgreen;
+    background-size: cover;
+    background-position: center
+}
+
+.banner label{
+    margin: 10px 20px;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: larger;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: larger;
+}
+.content h1{
+    font-family:"Abyssinica SIL";
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.content .cn{
+    width: 60px;
+    height: 40px;
+    background-color: chartreuse;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 7.5px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    background-color: chartreuse;
+}
+.content .cn:hover{
+    background-color: white;
+    color: black;
+}
+.content span{
+    color: purple;
+    font-size: larger;
+}
+.content button{
+     text-decoration: none;
+    color: black;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.form{
+    width: 350px;
+    height: 350px;
+    background-color: saddlebrown;
+    position: absolute;
+    top: -50px;
+    left: 1000px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+.form h2{
+    width: 100px;
+    font-family: "Chandas";
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+}
+.form input{
+    width: 240px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-right: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: sans-serif;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: chartreuse;
+    border: none;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background: white;
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
